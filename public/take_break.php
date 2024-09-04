@@ -20,3 +20,4 @@ if ($break_duration > 0) {
     echo 'Invalid break duration';
 }
 ?>
+
