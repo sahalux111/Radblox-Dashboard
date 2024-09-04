@@ -1,12 +1,11 @@
 <?php
 session_start();
-require 'db.php';
+require '../config/db.php';
 
 if (isset($_SESSION['username'])) {
     header('Location: dashboard.php');
     exit();
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -36,3 +35,4 @@ if (isset($_SESSION['username'])) {
     </div>
 </body>
 </html>
+
